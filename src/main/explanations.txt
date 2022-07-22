@@ -1,0 +1,19 @@
+What is Dependency Injection and Inversion of Control in Spring Framework?
+
+Spring helps in the creation of loosely coupled applications because of Dependency Injection.
+In Spring, objects define their associations (dependencies) and do not worry about how they will get
+ those dependencies. It is the responsibility of Spring to provide the required dependencies for creating objects.
+For example: Suppose we have an object Employee and it has a dependency on object Address. We would define
+ a bean corresponding to Employee that will define its dependency on object Address.
+
+When Spring tries to create an Employee object, it will see that Employee has a dependency on Address,
+ so it will first create the Address object (dependent object) and then inject it into the Employee object.
+
+Inversion of Control (IoC) and Dependency Injection (DI) are used interchangeably. IoC is achieved through DI.
+ DI is the process of providing the dependencies and IoC is the end result of DI.
+ (Note: DI is not the only way to achieve IoC. There are other ways as well.)
+
+By DI, the responsibility of creating objects is shifted from our application code to the Spring container;
+ this phenomenon is called IoC.
+
+Dependency Injection can be done by setter injection or constructor injection.
