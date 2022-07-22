@@ -45,7 +45,7 @@ public class main {
             //also, we have to initialize the private String text in MyBean class. so we define an init method in MyBean.java
                 // to initialize the instance after its creation, we use @PostConstruct
 
-        //FLAG 5
+        //FLAG 5 --
             //by type
         ProductDeliveryService service = context.getBean(ProductDeliveryService.clas);
         service.addSomeProduct();
