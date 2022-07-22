@@ -4,6 +4,7 @@ import Services.ProductDeliveryService;
 import config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+//context = collection of instances the framework knows and managed by the framework. in our case the framework is Spring.
 public class main {
     /**
      * context can be configured using XML or annotations
