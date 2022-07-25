@@ -17,3 +17,13 @@ By DI, the responsibility of creating objects is shifted from our application co
  this phenomenon is called IoC.
 
 Dependency Injection can be done by setter injection or constructor injection.
+
+-----------------
+
+Constructor Injection: Supports immutability. Setter Injection: No immutability. Field Injection: No immutability.
+
+-----------------
+
+Field vs constructor injection spring
+Constructor Injection: State Safe. The object is instantiated to a full state or is not instantiated at all.
+Field Injection: Consumer uses no-argument constructor. There is no valid way to set state of the object.
